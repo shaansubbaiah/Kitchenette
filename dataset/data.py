@@ -2,9 +2,9 @@ import pandas as pd
 
 
 class data:
-    df = pd.read_csv("scraped_data.csv")
+    df = pd.read_csv("dataset/scraped_data.csv")
 
-    nutrients_df = pd.read_csv("nutrients.csv")
+    nutrients_df = pd.read_csv("dataset/nutrients.csv")
 
     stats = {
         'total_recipes': len(df),
